@@ -98,7 +98,6 @@ public class TextBoxManager : MonoBehaviour {
 
             
             currentLine += 1;
-
                 if (currentLine > endAtLine)
                 {
                     DisableTextBox();
