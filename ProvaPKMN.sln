@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPKMN.CSharp", "ProvaPKMN.CSharp.csproj", "{783B2C28-DB0F-20AC-284D-5307254CB256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPKMN.CSharp.Editor", "ProvaPKMN.CSharp.Editor.csproj", "{AF6F3C2C-1C55-524E-D2E3-48F2C329400E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{783B2C28-DB0F-20AC-284D-5307254CB256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783B2C28-DB0F-20AC-284D-5307254CB256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783B2C28-DB0F-20AC-284D-5307254CB256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783B2C28-DB0F-20AC-284D-5307254CB256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6F3C2C-1C55-524E-D2E3-48F2C329400E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6F3C2C-1C55-524E-D2E3-48F2C329400E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6F3C2C-1C55-524E-D2E3-48F2C329400E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6F3C2C-1C55-524E-D2E3-48F2C329400E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
