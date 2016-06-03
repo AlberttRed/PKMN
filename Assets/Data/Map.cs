@@ -336,10 +336,10 @@ public class Map : MonoBehaviour {
         ScreenFader sf = GameObject.Find("HUD").GetComponentInChildren<ScreenFader>();
         Debug.Log("ahfsofsajf");
             StartCoroutine(sf.FadeToClear());
-        
-        
-        //li = new Datos();
-        //string fileName = "encounters.txt";
+
+
+        li = new Datos();
+        string fileName = "encounters.txt";
         //string[] probabilidad = li.GetProperties2(map_id, "Probabilidad", fileName).Split(',');
 
         //this.Probabilidad_pkmn[0] = Convert.ToInt32(probabilidad[0]);
@@ -410,12 +410,12 @@ public class Map : MonoBehaviour {
         //this.Cave[10] = li.GetProperties2(map_id, "PokemonCave11", fileName);
         //this.Cave[11] = li.GetProperties2(map_id, "PokemonCave12", fileName);
 
-        //this.Water[0] = li.GetProperties2(map_id, "PokemonWater1", fileName);
-        //this.Water[1] = li.GetProperties2(map_id, "PokemonWater2", fileName);
-        //this.Water[2] = li.GetProperties2(map_id, "PokemonWater3", fileName);
-        //this.Water[3] = li.GetProperties2(map_id, "PokemonWater4", fileName);
-        //this.Water[4] = li.GetProperties2(map_id, "PokemonWater5", fileName);
-
+        this.Water[0] = li.GetProperties2(map_id, "PokemonWater1", fileName);
+        this.Water[1] = li.GetProperties2(map_id, "PokemonWater2", fileName);
+        this.Water[2] = li.GetProperties2(map_id, "PokemonWater3", fileName);
+        this.Water[3] = li.GetProperties2(map_id, "PokemonWater4", fileName);
+        this.Water[4] = li.GetProperties2(map_id, "PokemonWater5", fileName);
+       
         //this.RockSmash[0] = li.GetProperties2(map_id, "PokemonRockSmash1", fileName);
         //this.RockSmash[1] = li.GetProperties2(map_id, "PokemonRockSmash2", fileName);
         //this.RockSmash[2] = li.GetProperties2(map_id, "PokemonRockSmash3", fileName);
@@ -452,7 +452,7 @@ public class Map : MonoBehaviour {
         //this.HeadbuttHigh[5] = li.GetProperties2(map_id, "PokemonHeadbuttHigh6", fileName);
         //this.HeadbuttHigh[6] = li.GetProperties2(map_id, "PokemonHeadbuttHigh7", fileName);
         //this.HeadbuttHigh[7] = li.GetProperties2(map_id, "PokemonHeadbuttHigh8", fileName);
-        //Debug.Log(Water[4]);
+        Debug.Log(Water[4]);
 
     }
 

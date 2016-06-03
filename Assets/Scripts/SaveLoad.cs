@@ -24,7 +24,7 @@ public class SaveLoad  {
         Partida par = Partida.actual;
 
         Partida.actual = null;
-        File.WriteAllText(Application.persistentDataPath + "/savedGame.txt", JsonMapper.ToJson(par).ToString());
+        File.WriteAllText(Application.dataPath + "/metadataPKMN/savedGame.txt", JsonMapper.ToJson(par).ToString());
         Partida.actual = par;
         //   bf.Serialize(file, SaveLoad.savedGames);
 
@@ -34,13 +34,13 @@ public class SaveLoad  {
     {
         //if (File.Exists(Application.persistentDataPath + "/savedGame.txt"))
         //{
-
-        JsonData categorias = JsonMapper.ToObject(File.ReadAllText(Application.persistentDataPath + "/CategoriasMovimientos.txt"));
-        JsonData partida = JsonMapper.ToObject(File.ReadAllText(Application.persistentDataPath + "/savedGame.txt"));
-        JsonData tipos = JsonMapper.ToObject(File.ReadAllText(Application.persistentDataPath + "/types.txt"));
-        JsonData objetos = JsonMapper.ToObject(File.ReadAllText(Application.persistentDataPath + "/objetos.txt"));
-        JsonData movimientos = JsonMapper.ToObject(File.ReadAllText(Application.persistentDataPath + "/movimientos.txt"));
-        JsonData pokemons = JsonMapper.ToObject(File.ReadAllText(Application.persistentDataPath + "/pokemon.txt"));
+        //persistentdatapath
+        JsonData categorias = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/metadataPKMN/CategoriasMovimientos.txt"));
+        JsonData partida = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/metadataPKMN/savedGame.txt"));
+        JsonData tipos = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/metadataPKMN/types.txt"));
+        JsonData objetos = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/metadataPKMN/objetos.txt"));
+        JsonData movimientos = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/metadataPKMN/movimientos.txt"));
+        JsonData pokemons = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/metadataPKMN/pokemon.txt"));
         //Debug.Log(data.ToJson().ToString());
 
         //List<Pokemon> p = new List<Pokemon>();
