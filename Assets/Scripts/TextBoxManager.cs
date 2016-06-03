@@ -32,7 +32,7 @@ public class TextBoxManager : MonoBehaviour {
     RectTransform panelRectTransform;
     public float typeSpeed;
 
-
+    //ALBERT CABRON
     
 
     void Start()
