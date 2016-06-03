@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour {
         sf = GameObject.FindGameObjectWithTag("Fader").GetComponent<ScreenFader>();
     }
 	
+
 	// Update is called once per frame
 	void Update () {
 
