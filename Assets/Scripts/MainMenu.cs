@@ -10,11 +10,13 @@ public class MainMenu : MonoBehaviour {
     // Use this for initialization
     void Start () {
        
+
          
         canvas = GetComponent<Canvas>();
         sf = GameObject.FindGameObjectWithTag("Fader").GetComponent<ScreenFader>();
     }
 	
+
 	// Update is called once per frame
 	void Update () {
 
