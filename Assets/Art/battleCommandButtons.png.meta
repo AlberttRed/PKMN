@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: b10fcfae1895b6645a84d8439e31fed6
+timeCreated: 1465133345
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: battleCommandButtons_0
+    21300002: battleCommandButtons_1
+    21300004: battleCommandButtons_2
+    21300006: battleCommandButtons_3
+    21300008: battleCommandButtons_4
+    21300010: battleCommandButtons_5
+    21300012: battleCommandButtons_6
+    21300014: battleCommandButtons_7
+    21300016: battleCommandButtons_8
+    21300018: battleCommandButtons_9
+    21300020: battleCommandButtons_10
+    21300022: battleCommandButtons_11
+    21300024: battleCommandButtons_12
+    21300026: battleCommandButtons_13
+    21300028: battleCommandButtons_14
+    21300030: battleCommandButtons_15
+    21300032: battleCommandButtons_16
+    21300034: battleCommandButtons_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: battleCommandButtons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 368
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 322
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 276
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 230
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 184
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 138
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 92
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 46
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    - name: battleCommandButtons_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 23}
+        - {x: -65, y: 17}
+        - {x: -65, y: -19}
+        - {x: -59, y: -23}
+        - {x: 61, y: -23}
+        - {x: 65, y: -17}
+        - {x: 65, y: 19}
+        - {x: 59, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

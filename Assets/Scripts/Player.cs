@@ -361,6 +361,11 @@ public class Player : MonoBehaviour {
 
         //    Animation animation = GameObject.Find("Walk_Up")//.GetComponent<Animation>();
 
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("PPPPPPPPPPP");
+            FindObjectOfType<TextBoxManager>().TextBox_Write();//"123456789123456789(1)123456789123456789(2)123456789123456789(3)123456789123456789(4)123456789123456789(5)123456789123456789(6)123456789123456789(7)123456789123456789(8)123456789123456789(9)123456789123456789(10)123456789123456789(11)123456789123456789(12)123456789123456789(13)123456789123456789(14)123456789123456789(15)123456789123456789(16)123456789123456789(17)");
+        }
 
         if (!CanMove)
         {
@@ -462,13 +467,16 @@ public class Player : MonoBehaviour {
             Press = 0;
 
         }
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            //FindObjectOfType<TextBoxManager>().TextBox_Write("TOT EL CAMP ES UN CLAM SOM LA GENT BLAUGRANA TAN SE VAL D'ON VENIM SI DEL SUD O DEL NORD ARA ESTEM D'ACORD UNA BANDERA ENS AGERMANA BLAUGRANA EL VENT UN CRIT VALENT TENIM UN NOM QUE EL SAP TOTHOM BARÇA BARÇA BARÇA");
-            FindObjectOfType<TextBoxManager>().TextBox_Write("123456789123456789(1)123456789123456789(2)123456789123456789(3)123456789123456789(4)123456789123456789(5)123456789123456789(6)123456789123456789(7)123456789123456789(8)123456789123456789(9)123456789123456789(10)123456789123456789(11)123456789123456789(12)123456789123456789(13)123456789123456789(14)123456789123456789(15)123456789123456789(16)123456789123456789(17)");
-        }
+        //if (Input.GetKeyDown(KeyCode.P) && FindObjectOfType<TextBoxManager>().initialText)
+        //{
+        //    Debug.Log("PLAYER TETBOX");
+        //    FindObjectOfType<TextBoxManager>().initialText = false;
+        //    //FindObjectOfType<TextBoxManager>().TextBox_Write("TOT EL CAMP ES UN CLAM SOM LA GENT BLAUGRANA TAN SE VAL D'ON VENIM SI DEL SUD O DEL NORD ARA ESTEM D'ACORD UNA BANDERA ENS AGERMANA BLAUGRANA EL VENT UN CRIT VALENT TENIM UN NOM QUE EL SAP TOTHOM BARÇA BARÇA BARÇA");
+        //    FindObjectOfType<TextBoxManager>().TextBox_Write("123456789123456789(1)123456789123456789(2)123456789123456789(3)123456789123456789(4)123456789123456789(5)123456789123456789(6)123456789123456789(7)123456789123456789(8)123456789123456789(9)123456789123456789(10)123456789123456789(11)123456789123456789(12)123456789123456789(13)123456789123456789(14)123456789123456789(15)123456789123456789(16)123456789123456789(17)");
+        //}
 
-            transform.position = Vector3.MoveTowards(transform.position, Pos, Time.deltaTime * Speed);
+  
+        transform.position = Vector3.MoveTowards(transform.position, Pos, Time.deltaTime * Speed);
         if (On)
         {
             Debug.Log(On + " " + area);
@@ -536,8 +544,9 @@ public class Player : MonoBehaviour {
 
         if (mec.collider != null)
         {
-            Actual_map_id = mec.transform.parent.gameObject.transform.parent.gameObject.GetComponent<Map>().map_id;
             Mapa = mec.transform.parent.gameObject.transform.parent.gameObject.GetComponent<Map>();
+            Actual_map_id = Mapa.map_id;
+           
             //Debug.Log("Detecta: " + mec.collider.gameObject.name);
             //if (mec.collider.gameObject.tag == "Casa")
             //{

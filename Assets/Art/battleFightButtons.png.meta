@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: a469100b3a4877d4cbcdc3841333ea17
+timeCreated: 1465135214
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: battleFightButtons_0
+    21300002: battleFightButtons_1
+    21300004: battleFightButtons_2
+    21300006: battleFightButtons_3
+    21300008: battleFightButtons_4
+    21300010: battleFightButtons_5
+    21300012: battleFightButtons_6
+    21300014: battleFightButtons_7
+    21300016: battleFightButtons_8
+    21300018: battleFightButtons_9
+    21300020: battleFightButtons_10
+    21300022: battleFightButtons_11
+    21300024: battleFightButtons_12
+    21300026: battleFightButtons_13
+    21300028: battleFightButtons_14
+    21300030: battleFightButtons_15
+    21300032: battleFightButtons_16
+    21300034: battleFightButtons_17
+    21300036: battleFightButtons_18
+    21300038: battleFightButtons_19
+    21300040: battleFightButtons_20
+    21300042: battleFightButtons_21
+    21300044: battleFightButtons_22
+    21300046: battleFightButtons_23
+    21300048: battleFightButtons_24
+    21300050: battleFightButtons_25
+    21300052: battleFightButtons_26
+    21300054: battleFightButtons_27
+    21300056: battleFightButtons_28
+    21300058: battleFightButtons_29
+    21300060: battleFightButtons_30
+    21300062: battleFightButtons_31
+    21300064: battleFightButtons_32
+    21300066: battleFightButtons_33
+    21300068: battleFightButtons_34
+    21300070: battleFightButtons_35
+    21300072: battleFightButtons_36
+    21300074: battleFightButtons_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: battleFightButtons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 828
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 828
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 782
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 782
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 736
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 690
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 644
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 598
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 552
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 506
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 460
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 414
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 322
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 276
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 230
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 138
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 92
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 46
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    - name: battleFightButtons_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23}
+        - {x: -96, y: -23}
+        - {x: 96, y: -23}
+        - {x: 96, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

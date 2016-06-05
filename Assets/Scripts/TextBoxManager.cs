@@ -14,9 +14,11 @@ public class TextBoxManager : MonoBehaviour {
     public Text theText;
     float _oldWidth;
     float _oldHeight;
+    public bool initialText = true;
     float _fontSize = 14;
     float Ratio = 20; // public
     public TextAsset textFile;
+    public string mensaje;
     public string[] textLines;
     private int char_visibles = 0;
     public int currentLine;
@@ -32,7 +34,6 @@ public class TextBoxManager : MonoBehaviour {
     RectTransform panelRectTransform;
     public float typeSpeed;
 
-    //ALBERT CABRON
     
 
     void Start()
@@ -89,35 +90,13 @@ public class TextBoxManager : MonoBehaviour {
             return;
         }
 
-   //     theText.text = textLines[currentLine];
-
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            if (!isTyping)
-            {
-
-            
-            currentLine += 1;
-                if (currentLine > endAtLine)
-                {
-                    DisableTextBox();
-                    Debug.Log("end: " + player.CanMove);
-                }
-                else
-                {
-                    StartCoroutine(TextScroll(textLines[currentLine]));
-                }
-
-            }
-            else
-            {
-                if(isTyping && !cancelTyping)
-                {
-                    cancelTyping = true; 
-                }
-            }
-        }
-  
+        //     theText.text = textLines[currentLine];
+        //  FindObjectOfType<TextBoxManager>().TextBox_Write("123456789123456789(1)123456789123456789(2)123456789123456789(3)123456789123456789(4)123456789123456789(5)123456789123456789(6)123456789123456789(7)123456789123456789(8)123456789123456789(9)123456789123456789(10)123456789123456789(11)123456789123456789(12)123456789123456789(13)123456789123456789(14)123456789123456789(15)123456789123456789(16)123456789123456789(17)");
+        //if (Input.GetKeyDown(KeyCode.P))
+        //{
+        //    Debug.Log("PPPPPPPPPPP");
+        //    TextBox_Write("123456789123456789(1)123456789123456789(2)123456789123456789(3)123456789123456789(4)123456789123456789(5)123456789123456789(6)123456789123456789(7)123456789123456789(8)123456789123456789(9)123456789123456789(10)123456789123456789(11)123456789123456789(12)123456789123456789(13)123456789123456789(14)123456789123456789(15)123456789123456789(16)123456789123456789(17)");
+        //}
     }
     static IEnumerable<string> Split(string str, int chunkSize)
     {
@@ -218,7 +197,8 @@ public class TextBoxManager : MonoBehaviour {
             Debug.Log("Ha entrat");
             player.CanMove = false;
         }
-        StartCoroutine(TextScroll(textLines[currentLine]));
+        initialText = false;
+        //StartCoroutine(TextScroll(textLines[currentLine]));
 
     }
 
@@ -236,20 +216,12 @@ public class TextBoxManager : MonoBehaviour {
 
     //}
 
-    public void TextBox_Write(string text)
-    {
-        textLines = Split(text, 70).ToArray<string>();
-        currentLine = 0;
-        endAtLine = textLines.Length -1;
-        EnableTextBox();
-    }
-
     public void DisableTextBox()
     {
         textBox.SetActive(false);
         isActive = false;
         player.CanMove = true;
-        
+        initialText = true;
     }
 
     public void ReloadScript(TextAsset theText)
@@ -261,5 +233,118 @@ public class TextBoxManager : MonoBehaviour {
 
         }
     }
+    public void TextBox_Write()//string text)
+    {
+        Debug.Log("texbox WRITE");
+        if (initialText)
+        {
+            //textLines = Split(text, 70).ToArray<string>();
+            textLines = Split(mensaje, altura).ToArray<string>();
+            currentLine = 0;
+            endAtLine = textLines.Length - 1;
+            EnableTextBox();
+            
+        }
+        if (!isTyping)
+        {
+
+            Debug.Log("texbox manager");
+            
+            if (currentLine > endAtLine)
+            {
+                DisableTextBox();
+                // initialText = true;
+                Debug.Log("end: " + player.CanMove);
+            }
+            else
+            {
+                StartCoroutine(TextScroll(textLines[currentLine]));
+            }
+            currentLine += 1;
+        }
+        else
+        {
+            Debug.Log("istyping");
+            if (isTyping && !cancelTyping)
+            {
+                cancelTyping = true;
+            }
+        }
+
+    }
+
+    public void TextBox_Write(string[] textArray)//string text)
+    {
+        Debug.Log("texbox WRITE");
+        if (initialText)
+        {
+            //textLines = Split(text, 70).ToArray<string>();
+            textLines = textArray;
+            currentLine = 0;
+            endAtLine = textLines.Length - 1;
+            EnableTextBox();
+
+        }
+        if (!isTyping)
+        {
+
+            Debug.Log("texbox manager");
+
+            if (currentLine > endAtLine)
+            {
+                DisableTextBox();
+                // initialText = true;
+                Debug.Log("end: " + player.CanMove);
+            }
+            else
+            {
+                StartCoroutine(TextScroll(textLines[currentLine]));
+            }
+            currentLine += 1;
+        }
+        else
+        {
+            Debug.Log("istyping");
+            if (isTyping && !cancelTyping)
+            {
+                cancelTyping = true;
+            }
+        }
+
+
+    }
+
+    //  if (!initialText)
+    //        {
+
+
+    //            if (!isTyping)
+    //            {
+
+    //                Debug.Log("texbox manager");
+    //                currentLine += 1;
+    //                if (currentLine > endAtLine)
+    //                {
+    //                    DisableTextBox();
+    //// initialText = true;
+    //Debug.Log("end: " + player.CanMove);
+    //                }
+    //                else
+    //                {
+    //                    StartCoroutine(TextScroll(textLines[currentLine]));
+    //                }
+
+    //            }
+    //            else
+    //            {
+    //                if (isTyping && !cancelTyping)
+    //                {
+    //                    cancelTyping = true;
+    //                }
+    //            }
+    //        }
+
+
+
 
 }
